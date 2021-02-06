@@ -1,0 +1,583 @@
+body {
+  background-image: linear-gradient(to bottom, #432f48, rgb(0, 0, 0));
+}
+
+/* Font Face */
+@font-face {
+  font-family: "courgette-regular";
+  src: url("fontweb/courgette-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "dancing script";
+  src: url("fontweb/dancingscript-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "greatvibes";
+  src: url("fontweb/greatvibes-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "kaushanscript";
+  src: url("fontweb/kaushanscript-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "merienda-bold";
+  src: url("fontweb/merienda-bold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "merienda-regular";
+  src: url("fontweb/merienda-regular-webfont.woff") format("woff");
+}
+
+/* MOBILE VERSION */
+.navbar {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-family: viga;
+  font-size: 40px;
+}
+
+.jumbotron {
+  background-image: url(img/background.jpg);
+  /* background-attachment: fixed; */
+  position: relative;
+  height: 1000px;
+  width: 100%;
+}
+
+.jumbotron,
+.display-4 {
+  font-family: "courgette-regular";
+  text-align: center;
+  color: white;
+  margin-top: 250px;
+}
+
+.tombol {
+  border-radius: 30px;
+  margin-top: 80px;
+}
+
+/* About */
+.about h1 {
+  font-family: "merienda-bold";
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  border-bottom: 3px solid white;
+  width: 25%;
+  padding-bottom: 25px;
+  margin: auto;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.about p {
+  font-family: "merienda-bold";
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  margin-top: 30px;
+}
+
+/* Belum ada versi desktop */
+.services h1 {
+  font-family: "merienda-bold";
+  display: block;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  border-bottom: 3px solid white;
+  width: 25%;
+  padding-bottom: 25px;
+  margin: auto;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+/* TKJ */
+.imagetkj img {
+  position: relative;
+  width: 320px;
+  margin-top: 75px;
+  margin-left: 120px;
+}
+
+.desaingrafis h1 {
+  font-family: "courgette-regular";
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+.desaingrafis p {
+  font-family: "greatvibes";
+  text-align: center;
+  color: white;
+  margin-top: 35px;
+  margin-right: 50px;
+  font-size: 28px;
+}
+
+/* Photography */
+.photography h1 {
+  font-family: "courgette-regular";
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.photography p {
+  font-family: "greatvibes";
+  text-align: center;
+  color: white;
+  margin-top: 35px;
+  font-size: 28px;
+  margin-left: 50px;
+}
+
+.imagephoto img {
+  position: relative;
+  width: 400px;
+  margin-top: 75px;
+  margin-left: 60px;
+}
+
+/* Video Editor */
+.imgvideo img {
+  position: relative;
+  width: 400px;
+  margin-top: 75px;
+  margin-left: 90px;
+}
+
+.videoeditor h1 {
+  font-family: "courgette-regular";
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+.videoeditor p {
+  font-family: "greatvibes";
+  text-align: center;
+  color: white;
+  margin-top: 35px;
+  margin-right: 50px;
+  font-size: 28px;
+}
+
+/* Henna */
+.henna h1 {
+  font-family: "courgette-regular";
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.henna p {
+  font-family: "greatvibes";
+  text-align: center;
+  color: white;
+  margin-top: 35px;
+  font-size: 28px;
+  margin-left: 50px;
+}
+
+.imagehenna img {
+  position: relative;
+  width: 400px;
+  margin-top: 75px;
+  margin-left: 60px;
+}
+
+/* Paint */
+.imgpaint img {
+  position: relative;
+  width: 400px;
+  margin-top: 75px;
+  margin-left: 90px;
+}
+
+.painter h1 {
+  font-family: "courgette-regular";
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+.painter p {
+  font-family: "greatvibes";
+  text-align: center;
+  color: white;
+  margin-top: 35px;
+  margin-right: 50px;
+  font-size: 28px;
+}
+
+/* Gallery */
+.gallery h1 {
+  font-family: "merienda-bold";
+  display: block;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  border-bottom: 3px solid white;
+  width: 25%;
+  padding-bottom: 25px;
+  margin: auto;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.boxed {
+  position: relative;
+  background-size: cover;
+  /*    width: 1200px;
+height: 600px;*/
+  /* margin: 35px auto 0; */
+  margin: 5px auto 0;
+  /* margin-bottom: 20px; */
+  margin-bottom: 10px;
+  /*    background-color: #111;*/
+}
+
+.boxed .box {
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(300px - 30px);
+  /* padding: 10px; */
+  background: #000;
+  float: left;
+  margin-left: 45px !important;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.boxed .box:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  transition: 0.5s;
+  transform: scaleX(0);
+  opacity: 0;
+  z-index: 1;
+}
+
+.boxed .box:hover:before {
+  transform: scaleX(1);
+  opacity: 1;
+}
+
+/*after*/
+.boxed .box:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transition: 0.5s;
+  transform: scaleY(0);
+  opacity: 0;
+  z-index: 1;
+}
+
+.boxed .box:hover:after {
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+.imgbox {
+  /*  height: 750px;*/
+  width: 420px;
+}
+
+.boxed .box .headbox {
+  position: relative;
+}
+
+.boxed .box .headbox img {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.boxed .box:hover img {
+  opacity: 0.2;
+  /*  transform: scale(1.5);*/
+  transition: opacity 0.2s ease;
+  /*  display: block;*/
+}
+
+.boxed .box .headbox {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.boxed .box .headbox h2 {
+  font-family: Kaushan Script;
+  margin: 0 0 10px;
+  padding: 0;
+  color: #fff;
+  transition: 0.5s;
+  transform: translateY(-50px);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.boxed .box .headbox p {
+  font-family: Mali;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  transition: 0.5s;
+  transform: translateY(50px);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.boxed .box:hover .headbox h2,
+.boxed .box:hover .headbox p {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+  transition-delay: 0.2s;
+}
+
+/* Family */
+.family h1 {
+  font-family: "merienda-bold";
+  display: block;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  border-bottom: 3px solid white;
+  width: 25%;
+  padding-bottom: 25px;
+  margin: auto;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.card {
+  /* background-color: #432f48; */
+  background-color: transparent;
+  width: 300px;
+  height: 500px;
+  /* border: 3px solid white; */
+  border-radius: 20px;
+  /* box-shadow: 10px 10px 15px #242121; */
+  /* margin: auto; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin: 50px 0 20px 20px;
+}
+
+.sosmed a i {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  /* transition: 0.5s; */
+}
+
+.card:hover {
+  background-color: transparent;
+  /* background-color: #271925; */
+  border: 3px solid #432f48;
+  box-shadow: 10px 10px 15px #291128;
+}
+
+.card-img-top {
+  width: 250px !important;
+  align-self: center;
+  margin-top: 10px;
+  transition: 0.5s;
+  transform: translateY(100px);
+}
+
+.card-body,
+.card-title,
+.card-text {
+  text-align: center;
+  color: white;
+  font-family: "courgette-regular";
+  visibility: hidden;
+}
+
+.card-textquotes {
+  text-align: right !important;
+}
+
+.fa-instagram:hover {
+  color: #432f48;
+}
+
+.fa-facebook-square:hover {
+  color: #432f48;
+}
+
+.fa-twitter-square:hover {
+  color: #432f48;
+}
+
+/* .card:hover {
+    background-color: #242121;
+    transition: 1s;
+} */
+
+.card:hover .card-img-top {
+  transform: translateY(10px);
+  z-index: 1;
+}
+
+.card:hover .card-body h5,
+.card:hover .card-body p,
+.card:hover .sosmed a i {
+  visibility: visible;
+  transform: translateY(10px);
+  transition: 0.5s;
+  z-index: 2;
+}
+
+/* .fam {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-img-top {
+    width: 200px;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.card-title {
+    text-align: center;
+
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-textquotes {
+    text-align: right !important;
+} */
+
+/* Footer */
+.foot h3 {
+  font-family: "merienda-bold";
+  /* font-family: 'courgette-regular'; */
+}
+
+.foot ul li a {
+  font-family: "courgette-regular";
+}
+
+.foot p {
+  font-family: "courgette-regular";
+}
+
+.foot h6 {
+  font-family: "merienda-bold";
+  /* font-family: 'courgette-regular'; */
+}
+
+#main-footer ul .footer-icons {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #fff;
+  border-radius: 100%;
+  outline: 0;
+  background-color: #860e0e;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+#main-footer ul .footer-icons:hover {
+  background-color: #3b5998;
+}
+
+#main-footer ul .footer-icons i {
+  font-size: 26px;
+}
+
+#main-footer .footer-social ul a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+#main-footer .footer-social ul a:hover {
+  color: #7c7c7c;
+}
+
+#main-footer .footer-social ul a i {
+  margin-right: 10px;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  .navbar-brand {
+    color: white !important;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    font-family: "merienda-bold";
+    font-size: 18px;
+    color: white !important;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid rgb(23, 0, 24);
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .jumbotron {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    position: relative;
+    height: 725px;
+    margin-top: -100px;
+  }
+}
